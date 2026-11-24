@@ -1,0 +1,14 @@
+[
+  {
+    "pnr": "PNR-B5217",
+    "routeId": "NR-101",
+    "passengers": [],
+    "totalFare": 1200.0
+  },
+  {
+    "pnr": "PNR-A095F",
+    "routeId": "NR-101",
+    "passengers": [],
+    "totalFare": 0.0
+  }
+]

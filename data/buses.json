@@ -1,0 +1,302 @@
+[
+  {
+    "routeId": "NR-101",
+    "origin": "Bengaluru",
+    "destination": "Goa",
+    "departureDateTime": "2026-11-27T21:30",
+    "basePrice": 1200.0,
+    "busType": "SEATER",
+    "seats": [
+      {
+        "seatNumber": "1A",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "1B",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "1C",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "1D",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "2A",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "2B",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "2C",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "2D",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "3A",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "3B",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "3C",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "3D",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "4A",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "4B",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "4C",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "4D",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "5A",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "5B",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "5C",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "5D",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "6A",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "6B",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "6C",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "6D",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "7A",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "7B",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "7C",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "7D",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "8A",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "8B",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "8C",
+        "seatType": "SEATER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "8D",
+        "seatType": "SEATER",
+        "isBooked": false
+      }
+    ]
+  },
+  {
+    "routeId": "NR-102",
+    "origin": "Bengaluru",
+    "destination": "Hyderabad",
+    "departureDateTime": "2026-11-28T22:00",
+    "basePrice": 1500.0,
+    "busType": "SLEEPER",
+    "seats": [
+      {
+        "seatNumber": "1L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "1U",
+        "seatType": "UPPER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "2L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "2U",
+        "seatType": "UPPER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "3L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "3U",
+        "seatType": "UPPER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "4L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "4U",
+        "seatType": "UPPER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "5L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "5U",
+        "seatType": "UPPER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "6L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "6U",
+        "seatType": "UPPER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "7L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "7U",
+        "seatType": "UPPER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "8L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "8U",
+        "seatType": "UPPER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "9L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "9U",
+        "seatType": "UPPER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "10L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "10U",
+        "seatType": "UPPER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "11L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "11U",
+        "seatType": "UPPER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "12L",
+        "seatType": "LOWER",
+        "isBooked": false
+      },
+      {
+        "seatNumber": "12U",
+        "seatType": "UPPER",
+        "isBooked": false
+      }
+    ]
+  }
+]
