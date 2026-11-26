@@ -15,7 +15,7 @@
       {
         "seatNumber": "1B",
         "seatType": "SEATER",
-        "isBooked": false
+        "isBooked": true
       },
       {
         "seatNumber": "1C",

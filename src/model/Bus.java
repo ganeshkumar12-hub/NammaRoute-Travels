@@ -83,4 +83,36 @@ public class Bus {
     public ArrayList<Seat> getSeats() {
         return seats;
     }
+
+    // Count booked seats
+    public int getBookedSeatCount() {
+
+        int count = 0;
+
+        for (Seat seat : seats) {
+            if (seat.isBooked()) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    // Check whether surge pricing is active
+    public boolean isSurgePricingActive() {
+
+        int totalSeats = seats.size();
+        int bookedSeats = getBookedSeatCount();
+
+        return bookedSeats * 100 >= totalSeats * 70;
+    }
+    // Calculate fare for a new seat booking
+public double getPriceForNewBooking() {
+
+    if (isSurgePricingActive()) {
+        return basePrice * 1.20;
+    }
+
+    return basePrice;
+}
 }

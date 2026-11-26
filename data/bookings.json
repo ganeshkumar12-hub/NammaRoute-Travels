@@ -26,14 +26,44 @@
   {
     "pnr": "PNR-32BCD",
     "routeId": "NR-101",
+    "passengers": [],
+    "totalFare": 0.0
+  },
+  {
+    "pnr": "PNR-9FB3D",
+    "routeId": "NR-101",
+    "passengers": [],
+    "totalFare": 0.0
+  },
+  {
+    "pnr": "PNR-7D4AD",
+    "routeId": "NR-101",
+    "passengers": [],
+    "totalFare": 0.0
+  },
+  {
+    "pnr": "PNR-0C5A6",
+    "routeId": "NR-101",
+    "passengers": [],
+    "totalFare": 0.0
+  },
+  {
+    "pnr": "PNR-E8121",
+    "routeId": "NR-101",
     "passengers": [
       {
-        "name": "GANESH",
+        "name": "KALI",
+        "age": 22,
+        "gender": "F",
+        "seatNumber": "1A"
+      },
+      {
+        "name": "GANI",
         "age": 22,
         "gender": "M",
-        "seatNumber": "1A"
+        "seatNumber": "1B"
       }
     ],
-    "totalFare": 1200.0
+    "totalFare": 2400.0
   }
 ]

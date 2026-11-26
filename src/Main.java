@@ -4,13 +4,13 @@ import model.Booking;
 import model.Passenger;
 import model.Seat;
 
+import service.WaitlistService;
 import service.BusService;
 import service.BookingService;
 import service.CancellationService;
 import service.ManifestService;
 
 import util.JsonStorage;
-
 import java.time.LocalDateTime;
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -60,8 +60,12 @@ public class Main {
             System.out.println("\nSaved buses loaded successfully!");
         }
 
+        // Create Waitlist Service
+        WaitlistService waitlistService = new WaitlistService();
+
         // Create Booking Service
-        BookingService bookingService = new BookingService(service);
+        BookingService bookingService =
+                new BookingService(service, waitlistService);
 
         // Load bookings from JSON
         ArrayList<Booking> savedBookings =
@@ -97,19 +101,21 @@ public class Main {
 
         System.out.println("Seat status restored successfully!");
 
+        // Get Scanner from BookingService
+        Scanner sc = bookingService.getScanner();
+
         // Create Cancellation Service
         CancellationService cancellationService =
                 new CancellationService(
                         service,
                         bookingService,
-                        bookingService.getScanner()
+                        waitlistService,
+                        sc
                 );
 
         // Create Manifest Service
         ManifestService manifestService =
                 new ManifestService(bookingService);
-
-        Scanner sc = bookingService.getScanner();
 
         // Main Menu
         while (true) {
@@ -147,7 +153,9 @@ public class Main {
 
                     // Save updated data
                     JsonStorage.saveBuses(service.getBuses());
-                    JsonStorage.saveBookings(bookingService.getBookings());
+                    JsonStorage.saveBookings(
+                            bookingService.getBookings()
+                    );
 
                     break;
 
@@ -157,7 +165,9 @@ public class Main {
 
                     // Save updated data
                     JsonStorage.saveBuses(service.getBuses());
-                    JsonStorage.saveBookings(bookingService.getBookings());
+                    JsonStorage.saveBookings(
+                            bookingService.getBookings()
+                    );
 
                     break;
 
@@ -165,7 +175,9 @@ public class Main {
 
                     // Save before exiting
                     JsonStorage.saveBuses(service.getBuses());
-                    JsonStorage.saveBookings(bookingService.getBookings());
+                    JsonStorage.saveBookings(
+                            bookingService.getBookings()
+                    );
 
                     System.out.println(
                             "Thank you for using NammaRoute Travels!"
