@@ -10,5 +10,30 @@
     "routeId": "NR-101",
     "passengers": [],
     "totalFare": 0.0
+  },
+  {
+    "pnr": "PNR-5F6A2",
+    "routeId": "NR-101",
+    "passengers": [],
+    "totalFare": 0.0
+  },
+  {
+    "pnr": "PNR-E18F7",
+    "routeId": "NR-102",
+    "passengers": [],
+    "totalFare": 0.0
+  },
+  {
+    "pnr": "PNR-32BCD",
+    "routeId": "NR-101",
+    "passengers": [
+      {
+        "name": "GANESH",
+        "age": 22,
+        "gender": "M",
+        "seatNumber": "1A"
+      }
+    ],
+    "totalFare": 1200.0
   }
 ]
